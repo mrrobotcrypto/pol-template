@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "owner": "polearn",
+        "name": "pol-template",
+        "chain": "656476",
+        "title": "Deploy you first smart contract on Open Campus ",
+        "description": "... This also is the serves as a template to creating interesting and user friendly courses on PoL",
+        "image": ""
+    },
+    "quests": [
+        {
+            "path": "01_deploy_your_first_token/05_deploy",
+            "type": "deployment",
+            "bytecode": "0xa891761af84e22afaeaa82cf4cd09a7fa0eb2f88107861e42d055cb403bfb3fc"
+        },
+        {
+            "path": "01_deploy_your_first_token/06_set",
+            "type": "transaction",
+            "args": [
+                "Vitalik"
+            ],
+            "abi": [
+                {
+                    "inputs": [
+                        {
+                            "internalType": "string",
+                            "name": "_name",
+                            "type": "string"
+                        }
+                    ],
+                    "name": "set",
+                    "outputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
+                }
+            ]
+        },
+        {
+            "path": "02_tokens_using_openzeppelin",
+            "type": "deployment",
+            "bytecode": "0xc256a39b34c66c9dd356af7ac12af8f7b7756ee5f117f3e5a0d904222d3afa6f"
+        }
+    ]
+}
