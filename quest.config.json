@@ -3,9 +3,9 @@
         "owner": "polearn",
         "name": "pol-template",
         "chain": "656476",
-        "title": "Deploy you first smart contract on Open Campus ",
-        "description": "... This also is the serves as a template to creating interesting and user friendly courses on PoL",
-        "image": ""
+        "title": "Deploy Your First Smart Contract on Open Campus",
+        "description": "This course guides you through deploying your first smart contract on Open Campus. It also serves as a template for creating engaging and user-friendly courses on Proof of Learn.",
+        "image": "https://raw.githubusercontent.com/POLearn/pol-template/refs/heads/master/content/assets/cover.png"
     },
     "quests": [
         {
