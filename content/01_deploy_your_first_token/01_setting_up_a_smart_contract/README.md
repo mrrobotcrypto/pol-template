@@ -1,44 +1,44 @@
-# 设置智能合约
+# Setting up a Smart Contract
 
-### 介绍
+### Introduction 
 
-在本节中，我们将介绍智能合约的基本结构。智能合约可以自动化区块链上的协议和交易，为创新的去中心化应用（DApp）铺平道路！
+In this section, we'll go over the basic structure of a smart contract, that allows automate agreements and transactions on the blockchain, paving the way for innovative decentralized applications!
 
-### 许可证标识符
+### License Identifier
 
 ```solidity
 // SPDX-License-Identifier: MIT
 ```
 
-通常，第一行是**许可证标识符**，它不是强制性的，但是一种良好的实践。通过使用 MIT 许可证，我们鼓励他人自由使用和修改我们的智能合约，同时明确相关的法律许可，从而促进区块链社区的协作。
+Typically, the first line is a **License Identifier**, which is optional but a good practice. By using the MIT license, we encourage others to freely use and modify our smart contract while clarifying the legal permissions involved, fostering collaboration in the blockchain community.
 
-### Pragma 指令
+### Pragma Directive
 
-**Pragma 指令**用于指定 Solidity 编译器的版本：
+The **pragma directive** specifies the Solidity compiler version to use:
 
 ```solidity
 pragma solidity ^0.8.20;
 ```
 
-在这里，`^0.8.20` 确保合约使用 0.8.20 或不引入重大变更的更新版本进行编译。这有助于保持兼容性，并确保您的合约按预期运行。
+In this case, `^0.8.20` ensures the contract is compiled with version 0.8.20 or newer versions that don't introduce breaking changes. This helps maintain compatibility and ensures your contract works as expected.
 
-### 合约声明
+### Contract Declaration
 
-以下代码定义了一个名为 `SimpleContract` 的基本智能合约。`contract` 关键字用于在 Solidity 中声明一个新合约，它是用来在区块链上创建合约实例的蓝图。
+This snippet defines a basic smart contract named `SimpleContract`. The `contract` keyword is used to declare a new contract in Solidity, which serves as a blueprint for creating instances of that contract on the blockchain.
 
-大括号 `{}` 内部是实现合约所有逻辑和功能的地方。这包括状态变量、函数以及定义合约行为所需的任何其他元素。
+Inside the curly braces, indicated by `{}`, is where all the logic and functionality of the contract will be implemented. This can include state variables, functions, and any other elements needed to define the contract's behavior.
 
 ```solidity
 contract SimpleContract { 
-	// 所有逻辑都在这里实现 :) 
+	// All the logic goes in here :) 
 }
 ```
 
-### 编译合约
+### Compiling the contract
 
-要编译智能合约，选择与 Pragma 指令匹配的 Solidity 编译器版本（如 `pragma solidity ^0.8.20;`）是必不可少的。选择兼容的版本（例如 **0.8.20** 或更新版本）可以确保成功编译，并生成以下内容：
+To compile your smart contract, selecting the correct version of the Solidity compiler that matches the pragma directive, such as `pragma solidity ^0.8.20;`, is essential. Choosing a compatible version, like **0.8.20** or newer, ensures successful compilation that generates:
 
--   🛠️ **字节码**：用于在区块链上部署  
--   📡 **应用程序二进制接口（ABI）**：用于与合约的函数和事件进行交互
+-   🛠️ **Bytecode** for deployment on the blockchain
+-   📡 **Application Binary Interface (ABI)** for interacting with the contract's functions and events
 
-总之，使用正确的编译器版本对于智能合约的部署和功能至关重要。
+In conclusion, using the right compiler version is vital for your smart contract's deployment and functionality.
