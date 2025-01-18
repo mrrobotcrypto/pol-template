@@ -3,8 +3,8 @@
         "owner": "polearn",
         "name": "pol-template",
         "chain": "656476",
-        "title": "Deploy Your First Smart Contract on Open Campus",
-        "description": "This course guides you through deploying your first smart contract on Open Campus. It also serves as a template for creating engaging and user-friendly courses on Proof of Learn.",
+        "title": "Deploy Your First Smart Contract on EDU Chain",
+        "description": "This course guides you through deploying your first smart contract on EDU Chain. You'll learn the fundamental concepts of smart contracts, explore their structure and functionality, and gain hands-on experience writing, compiling, and deploying your own contract.",
         "image": "https://raw.githubusercontent.com/POLearn/pol-template/refs/heads/master/content/assets/cover.png"
     },
     "quests": [
