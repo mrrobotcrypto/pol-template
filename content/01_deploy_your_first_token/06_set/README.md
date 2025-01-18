@@ -1,23 +1,25 @@
 # Interaction with a Smart Contract
 
-### Introduction
+For this final section of deploying your first contract, let's learn how to interact with your deployed contract by using the setter method to update the name variable 🔧
 
-In this final section of deploying your first contract, let's learn how to interact with your deployed contract by using the setter method to update the name variable 🔧
-
-> Prerequisite: Ensure you have MetaMask installed and connected to the Open Campus Codex network, and your SimpleContract is successfully deployed.
+> Prerequisite: Ensure you have MetaMask installed and connected to the EDU Chain Testnet network, and your `SimpleContract` is successfully deployed.
 
 ### Interacting with the Contract
 
-Now that your SimpleContract is deployed on the Open Campus Codex network, let's change the name variable to `Vitalik` using the set method and retrieve the transaction hash to verify the transaction.
+![](https://raw.githubusercontent.com/POLearn/pol-template/refs/heads/master/content/assets/images/contract.png)
 
-#### Call the set Method
+Now that your `SimpleContract` is deployed on the EDU Chain Testnet network, let's store the name variable to `Vitalik` using the set method and retrieve the transaction hash to verify the transaction.
 
-First, locate the set function in your contract interface. In the input field, type **Vitalik** and click "Transact." MetaMask will prompt you to confirm the transaction—approve it and wait for the transaction to be processed.
+### ❗Quest: Call the `set` method
 
-#### Verify the Contract's State
+![](https://raw.githubusercontent.com/POLearn/pol-template/refs/heads/master/content/assets/images/contract_set.png)
 
-Once the transaction is confirmed, call the name function in your contract to check its current value. If it returns Vitalik, congratulations! You've successfully interacted with your contract and updated its state. 🎉
+You can click on thet `set` method in your contract interface. Since the contract has one argument, you'll be able to input the name. Enter the value **Vitalik** and click *Send*. This will prompt you to confirm the transaction and let you approve it. 
 
-### ❗Submit the Transaction to Proof of Learn
+### Interacting with contract state
 
-To validate this thequest, submit the transaction hash to the Proof of Learn (POL) platform. This confirms that you've successfully interacted with the smart contract.
+![](https://raw.githubusercontent.com/POLearn/pol-template/refs/heads/master/content/assets/images/contract_name.png)
+
+Once the transaction is confirmed, call the `name` function in your contract to check its current value. If it returns `Vitalik`, congratulations! You've successfully interacted with your contract and updated its state. 🎉
+
+You can submit the `set` method transaction to the Proof of Learn (POL) platform for this quest. This confirms that you've successfully interacted with the smart contract on EDU Chain.

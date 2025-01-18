@@ -2,9 +2,9 @@
 
 This template is your perfect starting point for creating engaging and interactive learning content on the **Proof of Learn (POL)** platform!
 
-So, welcome aboard! 👋 Get ready to dive into an exciting learning experience where you'll discover how to deploy a smart contract on the Open Campus Codex chain. With every step of your journey, you’ll not only learn but also unlock earning opportunities, all while keeping everything trackable on the blockchain! 
+So, welcome aboard! 👋 Get ready to dive into an exciting learning experience where you'll discover how to deploy a smart contract on the EDU Chain. With every step of your journey, you’ll not only learn but also unlock earning opportunities, all while keeping everything trackable on the blockchain! 
 
-All the resources and content you need are available right here: [GitHub Repository](https://github.com/5208980/pol-template). Happy learning, and let’s make this journey unforgettable!
+All the resources and content you need are available right here: [GitHub Repository](https://github.com/PoLearn/pol-template). Happy learning, and let’s make this journey unforgettable!
 
 ### Explore the Template on POL
 
